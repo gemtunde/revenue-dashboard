@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <NavbarContainer>
         <Text>
-            Good Day,
+            GoodDay,
             <span>
                 gemtunde
             </span>
