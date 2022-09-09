@@ -34,4 +34,14 @@ const Div = styled.div`
         color:#2f233d;
         background-color:rgba(189,134,245,0.192)
     `}
+    ${({paid})=> 
+    paid && `
+        color:#70e000;
+        background-color:#70e00041
+    `}
+    ${({late})=> 
+    late && `
+        color:#ff595e;
+        background-color:#ff595e41
+    `}
 `;

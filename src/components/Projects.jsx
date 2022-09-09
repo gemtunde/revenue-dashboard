@@ -11,10 +11,7 @@ const Projects = () => {
     <MainProject>
         <Project>
             <Avatar>
-                <img 
-                    src={AvatarImage}
-                    alt='image'
-                    />
+                <img src={AvatarImage} alt='project' />
             </Avatar>
             <Detail>
                 <Title>Software development for FG</Title>
@@ -25,11 +22,11 @@ const Projects = () => {
             <Avatar>
                 <img 
                     src={AvatarImage}
-                    alt='image'
+                    alt='project'
                     />
             </Avatar>
             <Detail>
-                <Title>Data Analysing for Samsung Mobile</Title>
+                <Title>Data Analysing </Title>
                 <SubTitle>20 days delivery timeline</SubTitle>
             </Detail>
         </Project>
@@ -69,11 +66,12 @@ const Detail = styled.div`
 margin-left: 1rem;
 `;
 const Title = styled.h3`
-font-weight: 500;
+font-weight: bold;
 font-size: 1rem;
 `;
 const SubTitle = styled.h5`
 font-weight: 300;
+color: #333;
 `;
 const AllProject = styled.h5`
 text-align: end;
