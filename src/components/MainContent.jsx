@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import Earnings from './Earnings';
 import Info from './Info';
 import Invoices from './Invoice';
+import JoinSlack from './JoinSlack';
 import Navbar from './Navbar';
 import Projects from './Projects';
 
@@ -27,6 +28,7 @@ const MainContent = () => {
                         <TitleText>Latest invoice</TitleText>
                         <Invoices />
                     </InvoiceContainer>
+                    <JoinSlack />
                 </ColumnOne2>
                 <ColumnTwo2></ColumnTwo2>
             </SectionTwo>
