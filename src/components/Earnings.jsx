@@ -33,6 +33,9 @@ border-radius:1rem;
 `;
 const CardContent = styled.div`
 margin: 1rem;
+//display: flex;
+//flex-direction:column;
+//gap:1;
 `;
 const Chart = styled.div`
     display: flex;

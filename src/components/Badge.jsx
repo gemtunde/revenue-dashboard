@@ -2,9 +2,18 @@ import React from 'react';
 import styled from 'styled-components';
 import { themeColor, darkThemeColor } from '../utils';
 
-const Badge = ({content}) => {
+const Badge = ({
+    content, 
+    glow=false,
+     paid=false, 
+     late=false}) => {
   return (
-    <Div>{content}</Div>
+    <Div
+    paid={paid}
+    late={late}
+     glow={glow}>
+        {content}
+        </Div>
   )
 }
 
@@ -17,5 +26,12 @@ const Div = styled.div`
     background-color: ${themeColor};
     cursor: pointer;
 
-
+    ${({glow})=> 
+    glow && `
+        font-size:0.8rem;
+        padding:0.2rem 0.5rem;
+        font-weight:normal;
+        color:#2f233d;
+        background-color:rgba(189,134,245,0.192)
+    `}
 `;

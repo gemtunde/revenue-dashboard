@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Earnings from './Earnings';
+import Info from './Info';
 import Navbar from './Navbar';
 
 const MainContent = () => {
@@ -11,6 +12,7 @@ const MainContent = () => {
             <SectionOne>
                 <ColumnOne1>
                     <Earnings />
+                    <Info />
                 </ColumnOne1>
                 <ColumnTwo1></ColumnTwo1>
             </SectionOne>
@@ -47,7 +49,7 @@ height: 20%;
 const SectionOne = styled.div`
 display: flex;
 justify-content: space-between;
-height: 40%;
+height: 50%;
 width: 100%;
 gap: 2rem;
 `;
