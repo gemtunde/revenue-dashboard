@@ -27,7 +27,7 @@ export default JoinSlack;
 const JoinChannel = styled.div`
 background-color: ${darkThemeColor};
 height: 50%;
-margin-top: 6.5rem;
+margin-top: 7.5rem;
 border-radius: 1rem;
 display: flex;
 align-items: center;

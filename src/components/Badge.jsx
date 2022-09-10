@@ -4,12 +4,14 @@ import { themeColor, darkThemeColor } from '../utils';
 
 const Badge = ({
     content, 
+    clean=false,
     glow=false,
      paid=false, 
      late=false}) => {
   return (
     <Div
     paid={paid}
+    clean={clean}
     late={late}
      glow={glow}>
         {content}
@@ -26,13 +28,19 @@ const Div = styled.div`
     background-color: ${themeColor};
     cursor: pointer;
 
+    ${({clean})=> 
+    clean && `
+         border:0.05rem solid ${themeColor};
+        color:${themeColor};
+        background-color:transparent;
+    `}
     ${({glow})=> 
     glow && `
         font-size:0.8rem;
         padding:0.2rem 0.5rem;
         font-weight:normal;
         color:#2f233d;
-        background-color:rgba(189,134,245,0.192)
+        background-color:rgba(189,134,245,0.192);
     `}
     ${({paid})=> 
     paid && `

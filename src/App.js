@@ -16,6 +16,7 @@ export default App;
 
 const Container = styled.div`
   display: flex;
-  height: 97vh;
+  height: 120vh;
   background: linear-gradient(to bottom right, white 0%, #e6e4ff 70%);
+  border-radius: 1rem;
 `;
