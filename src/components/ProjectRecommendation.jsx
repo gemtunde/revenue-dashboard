@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { themeColor, hoverEffect, cardShadow  } from '../utils';
 //import {IoStatsChart} from 'react-icons/io5';
 import Badge from './Badge';
-import AvatarImage from '../assets/passport.jpg'
+import AvatarImage from '../assets/sterling.jpg'
 
 const ProjectRecommendation = () => {
   return (

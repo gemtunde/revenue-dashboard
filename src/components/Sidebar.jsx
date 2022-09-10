@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Badge from './Badge';
 import { darkThemeColor, darkSidebarColor } from '../utils';
-import AvatarImage from '../assets/passport.jpg'
+import AvatarImage from '../assets/sterling.jpg'
 import {FaWallet} from 'react-icons/fa';
 import {AiOutlinePieChart} from 'react-icons/ai';
 import {RiHomeLine, RiFileCopyLine} from 'react-icons/ri';

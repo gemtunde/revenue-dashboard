@@ -48,7 +48,7 @@ background: linear-gradient(to bottom right, white 0% right, #e6e4ff 70%);
 border-top-right-radius: 2rem;
 border-bottom-right-radius: 2rem;
 margin: 1rem 8rem 1rem 4rem;
- margin-left: 25rem;
+ margin-left: 20rem;
 
 @media screen and (min-width: 320px) and (max-width:1080px){
     display: flex;
