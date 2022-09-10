@@ -49,6 +49,12 @@ const MainProject = styled.div`
     box-shadow: ${hoverEffect};
 }
 
+  @media screen and (min-width: 320px) and (max-width:1080px){
+    height: max-content;
+     width: 80%;
+     margin-top: 1rem;
+  }
+
 `;
 const Project = styled.div`
 display: flex;

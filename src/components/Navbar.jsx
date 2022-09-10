@@ -29,12 +29,26 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 height: 10%;
+width: 60%;
+//position: fixed;
+//margin-bottom: 20rem;
+//background-color: #f2f2f2;
+
+  @media screen and (min-width: 320px) and (max-width:1080px){
+    flex-direction: column;
+    margin-bottom: 1rem;
+    //position: relative;
+  }
 `;
 const Text = styled.h1`
 span{
     font-weight: 500;
     color: #484258;
 }
+
+  @media screen and (min-width: 320px) and (max-width:1080px){
+ margin-top: 1rem;
+  }
 `;
 const InputContainer = styled.div`
 display: flex;

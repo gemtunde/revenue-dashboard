@@ -50,6 +50,9 @@ const InfoCard = styled.div`
     &:hover{
     box-shadow: ${hoverEffect};
 }
+  @media screen and (min-width: 320px) and (max-width:1080px){
+     width: 80%;
+  }
 `;
 const Card = styled.div`
 border-radius: 1rem;
